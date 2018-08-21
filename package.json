@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/keystonejs/keystone.git"
+    "url": "https://github.com/reThinkData/keystone.git"
   },
   "dependencies": {
     "async": "^2.5.0",
@@ -36,7 +36,7 @@
     "display-name": "^0.1.0",
     "dumb-passwords": "^0.2.1",
     "ejs": "^2.5.6",
-    "elemental": "^0.6.1",
+    "elemental": "https;//github.com/reThinkData/elemental.git",
     "embedly": "^2.1.0",
     "errorhandler": "^1.5.0",
     "es6-promise": "^4.1.1",
@@ -68,15 +68,15 @@
     "qs": "^6.5.2",
     "queryfilter": "^0.0.4",
     "range_check": "^1.4.0",
-    "react": "^15.4.2",
+    "react": "https://github.com/reThinkData/react.git",
     "react-addons-css-transition-group": "^15.6.2",
     "react-alt-text": "^2.0.0",
     "react-color": "^2.14.1",
-    "react-day-picker": "^2.5.0",
+    "react-day-picker": "https://github.com/reThinkData/react.git",
     "react-dnd": "^2.5.3",
     "react-dnd-html5-backend": "^2.5.3",
-    "react-dom": "^15.4.2",
-    "react-domify": "^0.2.6",
+    "react-dom": "^https://github.com/reThinkData/react.git",
+    "react-domify": "https://github.com/reThinkData/react.git",
     "react-images": "^0.5.6",
     "react-markdown": "^2.5.0",
     "react-redux": "^5.0.6",

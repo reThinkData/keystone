@@ -82,7 +82,7 @@
     "react-redux": "https://github.com/reThinkData/react.git",
     "react-router": "https://github.com/reThinkData/react.git",
     "react-router-redux": "https://github.com/reThinkData/react.git",
-    "react-select": "https://github.com/reThinkData/react.git",
+    "react-select": "^2.0.0",
     "redux": "^3.7.2",
     "redux-saga": "^0.15.6",
     "redux-thunk": "^2.2.0",

@@ -6,7 +6,7 @@ var moment = require('moment');
 var assign = require('object-assign');
 
 module.exports = function (req, res, next) {
-	var baby = require('babyparse');
+	var papa = require('papaparse');
 	var keystone = req.keystone;
 
 	var format = req.params.format.split('.')[1]; // json or csv
@@ -55,7 +55,7 @@ module.exports = function (req, res, next) {
 			});
 			res.attachment(req.list.path + '-' + moment().format('YYYYMMDD-HHMMSS') + '.csv');
 			res.setHeader('Content-Type', 'application/octet-stream');
-			var content = baby.unparse({
+			var content = papa.unparse({
 				data: data,
 				fields: fields,
 			}, {
